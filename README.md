@@ -17,7 +17,7 @@ We implemented the following steps to have a better dataset that can facilitate 
 2. Cleaning categorical variables like merging similar catergories 
 3. Standardised naming convention 
 4. Removing poorly represented categories 
-5. Split blood pressure column into systolic and diastolic blood pressure and then using it to categorise each individual's blood pressure category
+5. Split blood pressure column into systolic and diastolic blood pressure and then using it to categorise each individual's blood pressure category\
 Final Cleaned Dataframe:
 ![dataframe](dataframe.png)
 
@@ -30,18 +30,18 @@ Using the cleaned dataframe, we made use of both univariate and bivariate analys
 
 ---
 # Machine Learning
-After analysisng which predictors have stronger correlations based on EDA and feature importance of each predictor, 4 models were made using different combinations of the predictors: 
-- Model 1. Occupation, Sleep Duration, BMI Category
-- Model 2. BMI Category, Age, Daily Steps
-- Model 3. Occupation, Sleep Duration, Daily Steps
-- Model 4. BMI Category, Age, Gender
+After analysing which predictors have stronger correlations based on EDA and feature importance of each predictor, 4 models were made using different combinations of the predictors: 
+- Model 1: Occupation, Sleep Duration, BMI Category
+- Model 2: BMI Category, Age, Daily Steps
+- Model 3: Occupation, Sleep Duration, Daily Steps
+- Model 4: BMI Category, Age, Gender
 
 And for each model, we did the following : 
 1. Create a model (depth=3,n_estimators=100) using RandomForest method first
 2. We further tuned the parameters (max_depth and n_estimators) using GridSearch method      
 3. We built a post-tuning model using RandomForest method 
 
-RESULT : 
+RESULT:\ 
 ![Result](results.png)
 
 Model 3 is the best predictive model as it has the highest post-tuning test accuracy and the cross validation score of 0.9189 and 0.8991 which shows that our model's strong performance for reliable predictions in practical applications. 
