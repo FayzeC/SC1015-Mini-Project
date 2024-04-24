@@ -39,8 +39,8 @@ After analysing which predictors have stronger correlations based on EDA and fea
 And for each model, we did the following : 
 1. Create a model (depth=3,n_estimators=100) using RandomForest method first
 2. We further tuned the parameters (max_depth and n_estimators) using GridSearch method      
-3. We built a post-tuning model using RandomForest method 
-\
+3. We built a post-tuning model using RandomForest method \
+
 RESULT:
 ![Result](results.png)
 
