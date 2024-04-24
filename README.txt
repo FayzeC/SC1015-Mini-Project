@@ -1,20 +1,19 @@
-
 This project features the data analysis of "Sleep Health and LifeStyle Dataset" from Kaggle https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data to make a predictive model of sleep disorders. The motive for this project is further substantiated by this research paper that concluded that poor sleep is a national public health issue that needs to be looked into. 
 
-Data Preparation and Cleaning 
+#Data Preparation and Cleaning 
 We looked into a total of 8 predictors which includes : gender, age, occupation sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps and how they affect presence of sleep disorders specifically sleep apnea and insomnia. 
 
 Through data cleaning, we removed null values, duplicates, irrelevant columns and poorly represented categories. We also merged similar categories and slit blood pressure into systolic and diastolic pressure to calculate each individual’s blood pressure category based on this guideline.[the guideline, a reference]
 
 Using the cleaned dataframe, we intended to use the insights gained from EDA to identify the top three predictors for the machine learning models.[pic of cleaned dataframe]
 
-Univariate Analysis
--1.Univariate analysis showed not much of a pattern to be observed except for some negative -2.here and positive skew here.
--3.The distribution of gender, BMI category, blood pressure category are also quite self-explanatory.
--4.The distribution of occupation shows a majority of nurses, doctors, and engineers.
--5.The distribution of sleep disorders also shows the ratio of not having a sleep disorder to having one is 58.5% to 41.5% which makes analysing predictors related to sleep disorder a feasible problem statement.
+##Univariate Analysis
+-1.Univariate analysis showed not much of a pattern to be observed except for some negative and positive skew.
+-2.The distribution of gender, BMI category, blood pressure category are also quite self-explanatory.
+-3.The distribution of occupation shows a majority of nurses, doctors, and engineers.
+-4.The distribution of sleep disorders also shows the ratio of not having a sleep disorder to having one is 58.5% to 41.5% which makes analysing predictors related to sleep disorder a feasible problem statement.
 
-Bivariate Analysis
+##Bivariate Analysis
 -1.Age and Sleep Disorder
 -2.Sleep duration and Sleep Disorder
 -3.Gender and Sleep Disorder
@@ -25,7 +24,7 @@ Quality of sleep, physical level, stress level, heart rate, number of daily step
 
 
 
-MODEL : 
+#MODEL : 
 
 After analysisng which predictors have stronger correlations based on EDA and feature importance of each predictor, 4 models were made using different combinations of the predictors: 
             Model 1. Occupation, Sleep Duration, BMI Category
@@ -40,7 +39,7 @@ And for each model, we did the following :
 
 
 
-RESULT : 
+#RESULT : 
  (copy the slide) 
 
 Model 3 is the best predictive model as it has the highest post-tuning test accuracy and the cross validation score of 0.9189 and 0.8991(Figure 2). The cross-validation scores indicate how well a machine learning model generalises to unseen data by testing it on multiple subsets while post-tuning test accuracy reflects the model's performance after hyperparameter optimisation. Thus, model 3 is able to provide reliable predictions for practical uses. 
