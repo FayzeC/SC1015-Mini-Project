@@ -41,7 +41,7 @@ And for each model, we did the following :
 3. We built a post-tuning model using RandomForest method 
 
 RESULT : 
-
+![Result](result.png)
 
 Model 3 is the best predictive model as it has the highest post-tuning test accuracy and the cross validation score of 0.9189 and 0.8991 which shows that our model's strong performance for reliable predictions in practical applications. 
 
@@ -54,7 +54,7 @@ Though occupation is not something we would think of as reasons for sleep disord
 ---
 # Potential Issues When Viewing Notebook
 1. Plotly heatmap may not show up when viewing - it can be viewed by rerunning the data preparation and calculating correlation (under choosing top 3 predictors section) parts of the notebook. Alternatively, a picture has been included for easier reference.
-
+![Heatmap](heatmap.png)
 
 ---
 ## Contributions
