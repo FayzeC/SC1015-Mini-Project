@@ -1,10 +1,28 @@
 
 This project features the data analysis of "Sleep Health and LifeStyle Dataset" from Kaggle https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data to make a predictive model of sleep disorders. The motive for this project is further substantiated by this research paper that concluded that poor sleep is a national public health issue that needs to be looked into. 
 
-DATA PREP + EDA 
+Data Preparation and Cleaning 
 We looked into a total of 8 predictors which includes : gender, age, occupation sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps and how they affect presence of sleep disorders specifically sleep apnea and insomnia. 
 
-Through data cleaning, we 
+Through data cleaning, we removed null values, duplicates, irrelevant columns and poorly represented categories. We also merged similar categories and slit blood pressure into systolic and diastolic pressure to calculate each individual’s blood pressure category based on this guideline.[the guideline, a reference]
+
+Using the cleaned dataframe, we intended to use the insights gained from EDA to identify the top three predictors for the machine learning models.[pic of cleaned dataframe]
+
+Univariate Analysis
+-1.Univariate analysis showed not much of a pattern to be observed except for some negative -2.here and positive skew here.
+-3.The distribution of gender, BMI category, blood pressure category are also quite self-explanatory.
+-4.The distribution of occupation shows a majority of nurses, doctors, and engineers.
+-5.The distribution of sleep disorders also shows the ratio of not having a sleep disorder to having one is 58.5% to 41.5% which makes analysing predictors related to sleep disorder a feasible problem statement.
+
+Bivariate Analysis
+-1.Age and Sleep Disorder
+-2.Sleep duration and Sleep Disorder
+-3.Gender and Sleep Disorder
+-4.Occupation and Sleep Disorder
+-5.BMI Category and Sleep Disorder
+Quality of sleep, physical level, stress level, heart rate, number of daily steps and blood pressure category are determined to be bad predictors as some of them are either missing median lines, IQR boxes, showing no correlation or contain anomalies.
+
+
 
 
 MODEL : 
