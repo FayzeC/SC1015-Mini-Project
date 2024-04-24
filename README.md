@@ -18,7 +18,8 @@ We implemented the following steps to have a better dataset that can facilitate 
 3. Standardised naming convention 
 4. Removing poorly represented categories 
 5. Split blood pressure column into systolic and diastolic blood pressure and then using it to categorise each individual's blood pressure category
-[pic of cleaned dataframe] 
+Final Cleaned Dataframe:
+![dataframe](dataframe.png)
 
 ---
 ## Exploratory Data Analysis
@@ -41,7 +42,7 @@ And for each model, we did the following :
 3. We built a post-tuning model using RandomForest method 
 
 RESULT : 
-![Result](result.png)
+![Result](results.png)
 
 Model 3 is the best predictive model as it has the highest post-tuning test accuracy and the cross validation score of 0.9189 and 0.8991 which shows that our model's strong performance for reliable predictions in practical applications. 
 
