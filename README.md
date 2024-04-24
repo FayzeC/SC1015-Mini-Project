@@ -41,7 +41,7 @@ And for each model, we did the following :
 2. We further tuned the parameters (max_depth and n_estimators) using GridSearch method      
 3. We built a post-tuning model using RandomForest method
 
-This are the results:\
+This are the results:
 
 ![Result](results.png)
 
