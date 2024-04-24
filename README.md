@@ -64,6 +64,7 @@ Though occupation is not something we would think of as reasons for sleep disord
 1. Jayashree Sivakumar (U2322599D) - Introduction, conclusion, results and recommendations
 2. Faye Chan  (U2322426D )  - Data preparation and cleaning, EDA
 3. Guan Xiaoxi (U2320285A) - Machine learning model
+\
 Rest was done together as a group :)
 
 ---
