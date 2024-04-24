@@ -40,8 +40,8 @@ And for each model, we did the following :
 1. Create a model (depth=3,n_estimators=100) using RandomForest method first
 2. We further tuned the parameters (max_depth and n_estimators) using GridSearch method      
 3. We built a post-tuning model using RandomForest method 
-
-RESULT:\ 
+\
+RESULT:
 ![Result](results.png)
 
 Model 3 is the best predictive model as it has the highest post-tuning test accuracy and the cross validation score of 0.9189 and 0.8991 which shows that our model's strong performance for reliable predictions in practical applications. 
