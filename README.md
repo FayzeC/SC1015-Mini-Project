@@ -5,7 +5,7 @@ This project features the data analysis of [Sleep Health and LifeStyle Dataset](
 
 ---
 ## New Techniques Explored
-- Plotly for heatmap visualisation
+- Plotly and dash for interactive heatmap visualisation
 - Random forest method for machine learning model
 - Gridsearch for further tuning of parameters
 - Feature importance to analyse predictors
@@ -55,7 +55,8 @@ Though occupation is not something we would think of as reasons for sleep disord
 
 ---
 # Potential Issues When Viewing Notebook
-1. Plotly heatmap may not show up when viewing - it can be viewed by rerunning the data preparation and calculating correlation (under choosing top 3 predictors section) parts of the notebook. Alternatively, a picture has been included for easier reference.
+1. The blood pressure table image does not render when viewing the notebook on github but it will show up if you view the notebook locally on your own workstation.
+2. Plotly heatmap may not show up when viewing - it can be viewed by first installing dash (run *pip install dash* in anaconda prompt) and rerunning the data preparation and calculating correlation (under choosing top 3 predictors section) parts of the notebook, it is not necessary to rerun the whole notebook. Alternatively, a picture has been included for easier reference.
 ![Heatmap](heatmap.png)
 
 ---
