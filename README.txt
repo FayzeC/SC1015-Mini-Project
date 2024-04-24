@@ -1,13 +1,3 @@
-readme file
-- The repo must include a decently composed README file for your TA to read and understand the project.
-It is unlikely that your TA will execute your codes for every single project, but they will read the README.
-- You may include a copy of your slides that you used in the video presentation (not mandatory) in the repo.
-Make sure the README file is decently written (like a short report) to describe your work.
-- README does not need to have all minor details, but it should broadly explain your work.
-- README does not need to be too huge. Keep it simple, compact, but sufficiently detailed.
-- Make sure the README ends with each individual contribution in the project by members.
-- Make sure the README ends with each online/offline reference you consulted or utilized.
-- Don't go over the top please. Try to make the README a 3 to 5 minute read -- not more.
 
 This project features the data analysis of "Sleep Health and LifeStyle Dataset" from Kaggle https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data to make a predictive model of sleep disorders. The motive for this project is further substantiated by this research paper that concluded that poor sleep is a national public health issue that needs to be looked into. 
 
